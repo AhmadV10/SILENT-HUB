@@ -22,7 +22,7 @@ local player = {
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local silence = WindUI:CreateWindow({
-    Title = "Silence - Tap Simulator",
+    Title = "SILENT HUB - Tap Simulator",
     Author = "by Henne @imhenne",
     Icon = "solar:moon-bold",
     IconSize = 13*2,
