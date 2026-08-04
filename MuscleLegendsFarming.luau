@@ -23,9 +23,9 @@ end
 
 
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ghjkl1312/bhkjhk/refs/heads/main/lib.luau", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV10/Ahmad-Main-GUI/refs/heads/main/SILENT%20HUB", true))()
 
-local window = library:AddWindow("Silence | Fast Farming - Good Farming " .. displayName, {
+local window = library:AddWindow("SLIENT HUB | Fast Farming - Good Farming " .. displayName, {
 	title_bar = { Color3.fromRGB(255, 0, 0), Color3.fromRGB(155, 0, 0) },
 	title_bar_transparency = 0.3,
 	background = { Color3.fromRGB(90, 0, 0), Color3.fromRGB(0, 0, 0) },
@@ -916,9 +916,9 @@ local infoTab = window:AddTab("Info")
 infoTab:Show()
 infoTab:AddLabel("Made with ♥️ by Henne").TextSize = 17
 infoTab:AddLabel("You need 7-8 Robux Packs for Fast Farming❕").TextSize = 17
-infoTab:AddLabel("Official Discord: discord.gg/9eFf93Kg8D").TextSize = 17
+infoTab:AddLabel("Official Discord: discord.gg/QwwNBGwA4q").TextSize = 17
 infoTab:AddButton("Copy Discord Invite", function()
-    local link = "https://discord.gg/9eFf93Kg8D"
+    local link = "https://discord.gg/QwwNBGwA4q"
     if setclipboard then
         setclipboard(link)
         game.StarterGui:SetCore("SendNotification", {
