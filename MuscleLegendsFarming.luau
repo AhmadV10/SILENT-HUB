@@ -23,9 +23,9 @@ end
 
 
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV10/Ahmad-Main-GUI/refs/heads/main/SILENT%20HUB", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV10/Ahmad-Main-GUI/refs/heads/main/Nova%20Hub%20Gui"))()
 
-local window = library:AddWindow("SILENT HUB | Fast Farming - Good Farming " .. displayName, {
+local window = library:AddWindow("Nova Hub | Fast Farming - Good Farming " .. displayName, {
 	title_bar = { Color3.fromRGB(255, 0, 0), Color3.fromRGB(155, 0, 0) },
 	title_bar_transparency = 0.3,
 	background = { Color3.fromRGB(90, 0, 0), Color3.fromRGB(0, 0, 0) },
