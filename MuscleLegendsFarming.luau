@@ -916,9 +916,9 @@ local infoTab = window:AddTab("Info")
 infoTab:Show()
 infoTab:AddLabel("Made with ♥️ by Henne").TextSize = 17
 infoTab:AddLabel("You need 7-8 Robux Packs for Fast Farming❕").TextSize = 17
-infoTab:AddLabel("Official Discord: discord.gg/QwwNBGwA4q").TextSize = 17
+infoTab:AddLabel("Official Discord: https://discord.gg/ubpwCbBS5P").TextSize = 17
 infoTab:AddButton("Copy Discord Invite", function()
-    local link = "https://discord.gg/QwwNBGwA4q"
+    local link = "https://discord.gg/ubpwCbBS5P"
     if setclipboard then
         setclipboard(link)
         game.StarterGui:SetCore("SendNotification", {
@@ -936,7 +936,7 @@ infoTab:AddButton("Copy Discord Invite", function()
 end)
 
 infoTab:AddLabel("")
-local wLabel = infoTab:AddLabel("Silence [V3.3.0]")
+local wLabel = infoTab:AddLabel("Nova Hub [V1.0.0]")
 wLabel.TextSize = 40
 wLabel.Font = Enum.Font.Arcade
 
